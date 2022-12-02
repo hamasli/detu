@@ -1,0 +1,286 @@
+*/ {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+
+}
+
+
+
+.container-navbar {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+
+.navbar {
+
+
+    padding: 0px !important;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.navbar-brand img {
+    height: 40px;
+    padding-left: 20px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+
+}
+
+.navbar-nav li a {
+    color: white !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.nav-item a {
+    transition: 0.2s ease-in-out;
+
+}
+
+.nav-item a:hover {
+    background-color: rgb(210, 170, 210);
+    color: white;
+    border-radius: 10px;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    color: white;
+}
+
+/* -------------------BANNER SECTION ------------------- */
+#banner {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+    padding-top: 4%;
+}
+
+.promo-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 75px;
+}
+
+.play-btn {
+    width: 45px;
+    margin: 18px;
+}
+
+#banner a {
+    color: white;
+    text-decoration: none !important;
+}
+
+#banner .uff {
+    height: 400px;
+}
+
+.bottom-img {
+    width: 100%;
+    margin-top: -23px;
+}
+
+/*  ---------------------------services section  */
+#services {
+    text-align: center;
+    justify-content: center;
+    padding: 80px 0px;
+
+}
+
+.service1-img {
+    margin-left: 10px;
+    width: 100px;
+    margin-top: 20px;
+
+}
+
+.services {
+    padding: 20px;
+}
+
+.services h4 {
+    padding: 5px;
+    margin-top: 25px;
+}
+
+.title::before {
+    content: '';
+    background-color: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin: auto;
+    display: block;
+    transform: translateY(63px);
+
+}
+
+.title::after {
+    content: '';
+    background-color: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin: auto;
+    display: block;
+    transform: translateY(8px);
+    margin-bottom: 40px;
+}
+
+#services .btn-primary {
+
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+
+
+}
+
+/* About section is now started---------------------> */
+#about-us {
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+.about-title {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+#about-us ul li {
+    padding: 9px 0px;
+}
+
+#about-us ul {
+    margin-left: 20px;
+}
+
+/* ------------------------------testals */
+#testals {
+    margin: 100px 0px;
+}
+
+.testals {
+    border-left: 4px solid #7b1798;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.testals img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+
+.per-data {
+    display: inline-block;
+
+    font-size: 12px;
+}
+
+
+/* -----------------social media section */
+
+#So {
+    background: #f8f9fa;
+    padding: 100px 0px;
+}
+
+#So p {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.social-icons img {
+    width: 60px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img {
+    transform: translateY(-10px);
+}
+
+/*  ---------------------------footer section yup--------------------- */
+
+#footer {
+    background-color:#6f1687;
+    color: white;
+}
+.footer-img{
+    width: 100%;
+    
+}
+.footer-box{
+    padding: 20px;
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+
+}
+.footer-box .fa{
+margin-right: 8px;
+font-size:25px;
+height: 40px;
+width: 40px;
+padding-top: 7px;
+text-align: center;
+border-radius: 2px;
+background-image: #730f8f;
+
+}
+#footer .btn{
+    margin-top: 12px;
+    padding: 8px;
+    background-color: #5a1d79 !important;
+    border: none;
+    box-shadow: none;
+    transition: 0.5s ease-in-out;
+    transform: skew(12);
+    
+}
+#footer .btn :hover{
+    color:white;
+    transform: translateX(12px);
+    background-color:  red;
+}
+hr{
+    background-color: white;
+
+}
+.copyright{
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.list-inline{
+    margin-bottom: 0px;
+    align-items: center;
+}
+.copyright2{
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: -23px;
+}
